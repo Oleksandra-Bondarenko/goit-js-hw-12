@@ -1,3 +1,4 @@
+/* css-loader */
 .loader-wrapper {
   display: flex;
   justify-content: center;
@@ -44,6 +45,36 @@
   }
 }
 
+/* load more button */
+.load-more-btn {
+  cursor: pointer;
+  align-self: center;
+  height: 40px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
+  transition: background-color 250ms ease-in-out;
+}
+
+.load-more-btn:hover,
+.load-more-btn:focus {
+  background-color: #6c8cff;
+}
+
+.load-more-btn.is-hidden {
+  display: none;
+}
+
+/* iziToast error */
 .iziToast {
   width: 432px !important;
   min-height: 88px !important;
